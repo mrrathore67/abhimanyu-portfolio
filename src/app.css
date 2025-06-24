@@ -1,0 +1,94 @@
+@media (max-width: 1024px) {
+  #hero-heading {
+    font-size: 2.2rem;
+  }
+
+  #hero-subtitle {
+    font-size: 1rem;
+  }
+
+  #profile-image {
+    width: 500px !important; 
+    height: 400px !important; 
+    margin-top: 270px; 
+  }
+
+  #about-me-box {
+    position: relative !important; /* Changed from absolute */
+    top: unset !important;
+    margin-top: 50px; /* Add space between image and text */
+    font-size: 0.95rem;
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #hero-heading {
+    font-size: 1.8rem;
+    top: 20%;
+  }
+
+  #hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  /* #profile-image {
+    width: 500px;
+    height: 350px;
+    margin-top: 270px;
+  } */
+    #profile-image {
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    transform: none !important;
+    width: 300px !important;
+    height: 300px !important;
+    margin: 0 auto !important;
+    margin-top: 290px !important;
+    display: block !important;
+  }
+
+  #about-me-box {
+    position: relative !important;
+    top: unset !important;
+    margin-top: 50px;
+    font-size: 0.95rem;
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero-heading {
+    font-size: 1.5rem;
+  }
+
+  #hero-subtitle {
+    font-size: 0.8rem;
+  }
+
+  #profile-image {
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    transform: none !important;
+    width: 220px !important;
+    height: 210px !important;
+    margin: 0 auto !important;
+    margin-top: 290px !important;
+    display: block !important;
+  }
+
+    #about-me-box {
+    position: relative !important;
+    top: unset !important;
+    margin-top: 16px !important;
+    padding: 12px !important;
+    font-size: 0.85rem !important;
+    width: 300px !important;
+  }
+}
